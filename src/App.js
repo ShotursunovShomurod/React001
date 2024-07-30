@@ -8,6 +8,7 @@ import Years from './components/years/years';
 import Testimonial from './components/testimonial/testimonial';
 import Letest from './components/letest/letesgt';
 import Forget from './components/forget/forget';
+import Footer from './components/footer/footer';
 function App() {
   return (
     <div className="App">
@@ -19,6 +20,7 @@ function App() {
       <Testimonial/>
       <Letest/>
       <Forget/>
+      <Footer/>
     </div>
   );
 }
